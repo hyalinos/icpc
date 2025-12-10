@@ -4,7 +4,8 @@
 
 2. Open Hyalinos
 
-![My Image](sreenshots/open.png)
+![My Image](https://github.com/hyalinos/icpc/blob/main/sreenshots/open.png)
 
 # Run inference on a package
+
 
