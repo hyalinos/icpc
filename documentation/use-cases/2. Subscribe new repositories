@@ -1,0 +1,40 @@
+2. Subscribe all new repositories to trigger the inference when they are commited
+
+- Open Hyalinos
+- Click on Subscribe repositories
+![My Image](https://github.com/hyalinos/icpc/blob/main/sreenshots/sub-menu.png)
+
+- Check 'Subscribe all future repositories'
+![My Image](https://github.com/hyalinos/icpc/blob/main/sreenshots/sub-set.png)
+
+- Save
+- Open Iceberg repositories manager (Sources -> Git repositories browser)
+![My Image](https://github.com/hyalinos/icpc/blob/main/sreenshots/git-open.png)
+
+- Click 'Add'
+![My Image](https://github.com/hyalinos/icpc/blob/main/sreenshots/git-add.png)
+
+- Choose 'Clone remote repository'
+![My Image](https://github.com/hyalinos/icpc/blob/main/sreenshots/git-clone.png)
+
+- Enter repository address: https://github.com/hyalinos/test-project.git and click on 'Ok'
+- Choose 'test-project' in the list of loaded repositories and double click on it.
+![My Image](https://github.com/hyalinos/icpc/blob/main/sreenshots/fit-project.png)
+
+- Right-click on the package 'HyTestPackage' -> Load.
+![My Image](https://github.com/hyalinos/icpc/blob/main/sreenshots/git-load.png)
+
+- Double-click on 'HyTestPackage'. System Browser will open where you can change the code.
+- Click on 'HyTestClass' and then on 'hello' method.
+![My Image](https://github.com/hyalinos/icpc/blob/main/sreenshots/hy-change.png)
+
+- Change the string ^ 'hello there' of the method.
+- Double-click -> Accept to save changes
+![My Image](https://github.com/hyalinos/icpc/blob/main/sreenshots/hy-accept.png)
+
+- Go back to the list of Iceberg repositories, double-click on 'test-project'.
+- Click on 'Commit' button -> Commit
+![My Image](https://github.com/hyalinos/icpc/blob/main/sreenshots/git-commit-again.png)
+
+- When commiting process is finished, inference will start automatically. It will not display the results but they can be found in the 'Browse Results' table of Hyalinos tool
+![My Image](https://github.com/hyalinos/icpc/blob/main/sreenshots/sub-appear.png)
